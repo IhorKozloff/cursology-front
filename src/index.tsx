@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(
 root.render(
     <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-            <BrowserRouter basename="cursology">
+            <BrowserRouter basename="cursology-front">
                 <App />
             </BrowserRouter>
         </PersistGate>
