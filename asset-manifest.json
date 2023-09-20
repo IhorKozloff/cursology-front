@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cursology-front/static/css/main.1e5fffd9.css",
-    "main.js": "/cursology-front/static/js/main.802f2b90.js",
+    "main.js": "/cursology-front/static/js/main.ddccbd71.js",
     "static/js/558.0fca2857.chunk.js": "/cursology-front/static/js/558.0fca2857.chunk.js",
     "static/css/124.97d1d404.chunk.css": "/cursology-front/static/css/124.97d1d404.chunk.css",
     "static/js/124.44623a28.chunk.js": "/cursology-front/static/js/124.44623a28.chunk.js",
@@ -34,7 +34,7 @@
     "static/media/elipses-top-left.png": "/cursology-front/static/media/elipses-top-left.f6f21d1067c8be5c68ec.png",
     "index.html": "/cursology-front/index.html",
     "main.1e5fffd9.css.map": "/cursology-front/static/css/main.1e5fffd9.css.map",
-    "main.802f2b90.js.map": "/cursology-front/static/js/main.802f2b90.js.map",
+    "main.ddccbd71.js.map": "/cursology-front/static/js/main.ddccbd71.js.map",
     "558.0fca2857.chunk.js.map": "/cursology-front/static/js/558.0fca2857.chunk.js.map",
     "124.97d1d404.chunk.css.map": "/cursology-front/static/css/124.97d1d404.chunk.css.map",
     "124.44623a28.chunk.js.map": "/cursology-front/static/js/124.44623a28.chunk.js.map",
@@ -59,6 +59,6 @@
   },
   "entrypoints": [
     "static/css/main.1e5fffd9.css",
-    "static/js/main.802f2b90.js"
+    "static/js/main.ddccbd71.js"
   ]
 }
