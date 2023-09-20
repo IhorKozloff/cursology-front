@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Lato;
+        font-weight: 400;
+        src: url(./fonts/Lato-Regular.woff) format("woff");
+    }
+
+    @font-face {
+        font-family: Lato;
+        font-weight: 500;
+        src: url(./fonts/Lato-Medium.woff) format("woff");
+    }
+
+    @font-face {
+        font-family: Lato;
+        font-weight: 700;
+        src: url(./fonts/Lato-Bold.woff) format("woff");
+    }
+
+    @font-face {
+      font-family: Lato;
+      font-weight: 800;
+      src: url(./fonts/Lato-Heavy.woff) format("woff");
+    }
+  
+}
+
+
+@layer components {
+    h1 {
+        @apply text-5xl leading-1.16 font-extrabold
+    }
+    h2 {
+        @apply text-4xl leading-1.35 font-extrabold
+    }
+    h3 {
+        @apply text-4xl-reduced leading-tight font-extrabold
+    }
+    h4 {
+        @apply text-2xl leading-tight font-bold
+    }
+    h5 {
+        @apply text-xl leading-normal font-bold
+    }
+
+    .text-style__body1--extraBold {
+        @apply text-lg leading-normal font-extrabold
+    }
+    .text-style__body1--bold {
+        @apply text-lg leading-normal font-bold
+    }
+    .text-style__body1--regular {
+        @apply text-lg leading-normal font-medium
+    }
+
+    .text-style__body2--extraBold {
+        @apply text-base leading-normal font-extrabold
+    }    
+    .text-style__body2--bold {
+        @apply text-base leading-normal font-bold
+    }
+    .text-style__body2--medium {
+        @apply text-base leading-normal font-medium
+    }
+    .text-style__body2--regular {
+        @apply text-base leading-normal font-medium
+    }
+    .text-style__body3--bold {
+        @apply text-sm leading-1.42 font-bold
+    }
+    .text-style__body3--regular {
+        @apply text-sm leading-1.42 font-medium
+    }
+
+    .flex-center-center {
+        @apply flex items-center justify-center
+    }
+    .nav-link-white {
+        @apply text-style__body2--bold text-White hover:text-YellowLight transition-colors duration-300
+    }
+    .nav-link-yellow{
+        @apply text-style__body2--bold text-YellowLight hover:text-White transition-colors duration-300
+    }
+    .section-mark {
+        @apply py-1 px-3 text-style__body3--regular text-Blue bg-Blue/10 rounded inline-block
+    }
+    .container { 
+        @apply w-[1216px] mx-auto box-content
+    }
+}
+ 
+.background-custom-gradient-black {
+    background-image: linear-gradient(143.07deg, #302F32 5.14%, #242424 78.54%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-page__hero {
+    background-image: url('./img/home/elipses-top-left.png'), url('./img/home/Ellipse 1.png'), url('./img/home/elipses-bootom-right.png'), linear-gradient(143.07deg, #302F32 5.14%, #242424 78.54%);
+    background-size: auto, 10px 10px, auto, cover;
+    background-repeat: no-repeat;
+    background-position: top 92px left, left 40px top 166px, bottom right, center;
+}
+.hero__image {
+    background-image: url('./img/home/lady-1x.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.home-page__about {
+    background-image: url('./img/home/Ellipse 1.png'), url('./img/home/elipses-U.png');
+    background-size: 10px 10px, auto;
+    background-repeat: no-repeat;
+    background-position: top 50px right 75px, top right;
+}
+.tab-bar-home-right-arrow-wrapper {
+    background-image: linear-gradient(to left, #272724 60%, transparent);
+}
+.tab-bar-home-left-arrow-wrapper {
+    background-image: linear-gradient(to right, #2D2D2F 60%, transparent);
+}
+.tab-bar-library-right-arrow-wrapper {
+    background-image: linear-gradient(to left, #252525 60%, transparent);
+}
+.tab-bar-library-left-arrow-wrapper {
+    background-image: linear-gradient(to right, #2C2B2D 60%, transparent);
+}
+.subtitles-transparent-effect {
+    background-image: linear-gradient(to bottom, #FFF 40%, transparent);
+}
+.err-ghost-bg {
+    background-image: url('./img/ghost.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.no-results-wallpaper {
+    background-image: url('./img/search-results.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.no-courses-by-category-wallpaper {
+    background-image: url('./img/courses.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+}
+.btn-in-set-border {
+    border-color: #484848!important;
+}
+.text-black-important {
+    color: #111110!important;
+
+}
+.text-black-hover-important:hover {
+    color: #111110!important;
+}
+
